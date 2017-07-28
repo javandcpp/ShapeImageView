@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShapeImageView">
+        <attr name="shape" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="heart" value="1"/>
+            <enum name="round" value="2"/>
+        </attr>
+        <attr name="border" format="dimension"/>
+        <attr name="border_color" format="color"/>
+        <attr name="placeholder_image" format="reference"/>
+        <attr name="round_radius" format="integer"/>
+    </declare-styleable>
+
+
+</resources>
